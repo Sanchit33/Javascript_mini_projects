@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500&display=swap');
+
+.header{
+    position:sticky;
+    top:0; left:0; right:0;
+    z-index: 1000;
+    background-color: white;
+    display:flex;
+    padding-top:1rem;
+    padding-bottom:2rem;
+    box-shadow:0 .7rem 1rem rgba(0,0,0,.1);
+    align-items:center;
+    justify-content:space-between;
+    
+}
+
+.header .navbar a{
+    font-size: 2rem;
+    margin-left: 2rem;
+    color:black;  
+}
