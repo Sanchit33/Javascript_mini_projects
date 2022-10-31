@@ -73,10 +73,10 @@ body {
   line-height: 1.5;
   font-size: 0.875rem;
 }
-ul {
-  list-style-type: none;
-}
+
 a {
+  display: flex;
+  flex-wrap: nowrap;
   text-decoration: none;
 }
 h1,
