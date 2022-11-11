@@ -145,6 +145,9 @@ nav a:hover {
 
 main {
   background-image: url('san.png');
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size:cover;
   min-height: 100vh;
   display: grid;
   place-items: center;
