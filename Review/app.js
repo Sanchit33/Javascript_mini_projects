@@ -45,6 +45,7 @@ const info = document.getElementById("info");
 
 const prev = document.getElementById("prev-btn");
 const next = document.getElementById("next-btn");
+const randombtn = document.getElementsByClassName(".random-btn");
 
 //set starting item
 let currentItem = 1;
@@ -79,5 +80,11 @@ next.addEventListener("click", function(){
   }
   check();
 })
+
+randombtn.addEventListener("click", function(){
+  currentItems = Math.floor(Math.random() * reviews.length);
+  console.log(currentItem);
+  check(currentItems);
+});
 
 
