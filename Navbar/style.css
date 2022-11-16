@@ -79,6 +79,17 @@ ul {
 a {
   text-decoration: none;
 }
+.prev {
+  text-transform: capitalize;
+  font-weight: 700;
+  font-size: 1rem;
+  color: var(--clr-primary-1);
+  letter-spacing: var(--spacing);
+  margin-right: 1rem;
+}
+.prev:hover {
+  color: var(--clr-primary-5);
+}
 h1,
 h2,
 h3,
@@ -238,7 +249,7 @@ nav {
   }
   .social-icons a {
     margin: 0 0.5rem;
-    color: var(--clr-primary-5);
+    color: var(--clr-black);
     transition: var(--transition);
   }
   .social-icons a:hover {
