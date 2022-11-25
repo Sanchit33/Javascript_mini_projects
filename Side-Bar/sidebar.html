@@ -1,77 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Side Bar</title>
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sidebar</title>
+    <!-- font-awesome -->
     <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
     />
-</head>
-<body>
-    <section class="container">
-        <nav class="navbar">
-            <div class="center_nav">
-                <button class="sidebar-toggle">
-                    <i class="fas fa-bar"></i>
-                </button>
-                <aside class="sidebar">
-                    <div class="sidebar-header">
-                        <img src="logo.svg" class="logo" alt="" />
-                        <button class="close-btn"><i class="fas fa-times"></i></button>    
-                    </div>
-                    <ul>
-                        <li>
-                            <a href="sidebar.html">Home</a>
-                        </li>
-                        <li>
-                            <a href="https://github.com/Sanchit33">about</a>
-                        </li>
-                        <li>
-                            <a href="/C:/Users/SUN/Desktop/Python Basic Project/Javascript_mini_projects/Color_flipper/index.html.">projects</a>
-                        </li>
-                        <li>
-                            <a href="https://github.com/Sanchit33">contact</a>
-                        </li>
 
-                        <!-- social media -->
-
-                        <ul class="social-icons">
-                            <li>
-                              <a href="https://github.com/Sanchit33">
-                                <i class="fab fa-github"></i>
-                              </a>
-                            </li>
-                            <li>
-                              <a href="https://twitter.com/SanchitShinde16">
-                                  <i class="fab fa-twitter"></i>
-                              </a>
-                            </li>
-                            <li>
-                              <a href="https://www.instagram.com/sanchit_3320/">
-                                <i class="fab fa-instagram"></i>
-                              </a>
-                            </li>
-                            <li>
-                              <a href="https://www.linkedin.com/in/sanchitshinde33/">
-                                  <i class="fab fa-linkedin"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://www.youtube.com/channel/UCZ9nzTkO87oGhYsU-XnIX5Q">
-                                    <i class="fab fa-youtube"></i>
-                                </a>
-                            </li>
-                        </ul>
-                    </aside>
-                    <a href="/C:/Users/SUN/Desktop/Python Basic Project/Javascript_mini_projects/Navbar/navbar.html"><< Previous Project</a>
-                    <a href="/C:/Users/SUN/Desktop/Python Basic Project/Javascript_mini_projects/">Next Project >></a>
-                </div>
-            </nav>
-        </section>
+    <!-- styles -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <button class="sidebar-toggle">
+      <i class="fas fa-bars"></i>
+    </button>
+    <aside class="sidebar">
+      <div class="sidebar-header">
+        <img src="logo.svg" class="logo" alt="" />
+        <button class="close-btn"><i class="fas fa-times"></i></button>
+      </div>
+      <!-- links -->
+      <ul class="links">
+        <li>
+          <a href="sidebar.html">home</a>
+        </li>
+        <li>
+          <a href="https://github.com/Sanchit33">about</a>
+        </li>
+        <li>
+          <a href="/C:/Users/SUN/Desktop/Python Basic Project/Javascript_mini_projects/Color_flipper/index.html.">projects</a>
+        </li>
+        <li>
+          <a href="https://github.com/Sanchit33">contact</a>
+        </li>
+      </ul>
+      <!-- social media -->
+      <ul class="social-icons">
+        <li>
+          <a href="https://github.com/Sanchit33">
+            <i class="fab fa-github"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://twitter.com/SanchitShinde16">
+            <i class="fab fa-twitter"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/sanchit_3320/">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/sanchitshinde33/">
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.youtube.com/channel/UCZ9nzTkO87oGhYsU-XnIX5Q">
+            <i class="fab fa-youtube"></i>
+          </a>
+        </li>
+      </ul>
+    </aside>
+    <a href="/C:/Users/SUN/Desktop/Python Basic Project/Javascript_mini_projects/Navbar/navbar.html" class="project"><< Previous Project</a>
+    <a href="/C:/Users/SUN/Desktop/Python Basic Project/Javascript_mini_projects/" class="project">Next Project >></a>
+    
+    <!-- javascript -->
     <script src="app.js"></script>
-</body>
+  </body>
 </html>
