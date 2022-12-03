@@ -280,6 +280,7 @@ nav a:hover {
     height: 200px;
     border: 0.25rem solid var(--clr-gold);
     border-radius: var(--radius);
+    width: 230px;
   }
   .item-info header {
     display: flex;
